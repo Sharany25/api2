@@ -1,4 +1,4 @@
-import { IsNotEmpty, IsString } from 'class-validator';  // Corrige la importación
+import { IsNotEmpty, IsString } from 'class-validator';
 
 export class CreateServicioDto {
     @IsString()
